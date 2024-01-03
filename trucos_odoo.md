@@ -35,6 +35,10 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
             attrs="{'readonly': [('imported','=',True)]}"/> (version 16)
             readonly = "imported == True"/> (version 17)
 
+            attrs="{'required': [('count', '=', 0)]}" (version 16)
+            modifiers="{'required': [('count', '=', 0)]}" (version 17)
+
+
             states="New" string="Confirm" type="object" (version 16)
             invisible="state != 'New'" string="Confirm" type="object" (version 17)
 
