@@ -37,15 +37,18 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
 
             attrs="{'required': [('count', '=', 0)]}" (version 16)
             modifiers="{'required': [('count', '=', 0)]}" (version 17)
-
+            <attribute name="attrs">
+                {'invisible': [('country_enforce_cities', '=', False)]}
+            </attribute>
 
             states="New" string="Confirm" type="object" (version 16)
             invisible="state != 'New'" string="Confirm" type="object" (version 17)
 
             states="Ongoing,Expire Soon," (version 16)
             invisible="state not in ['Ongoing','Expire Soon']" (version 17)
-
-
+```
+# 17.0
+```
 DeprecationWarning: Since 17.0: odoo.osv.osv.osv is deprecated, use odoo.models.Model
 
 Se arregla cambiando:
@@ -57,5 +60,5 @@ class res_partner(models.Model) (version 16)
 
 
             
-```
+
 
