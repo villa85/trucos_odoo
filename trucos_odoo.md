@@ -59,7 +59,7 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
 DeprecationWarning: Since 17.0: odoo.osv.osv.osv is deprecated, use odoo.models.Model
 
 Se arregla cambiando:
-from odoo.osv import osv (version 16)
+from openerp.osv import osv (version 16)
 class res_partner(osv.osv): (version 16)
 
 from odoo import models (version 17)
