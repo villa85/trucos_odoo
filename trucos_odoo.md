@@ -62,8 +62,8 @@ Se arregla cambiando:
 from odoo.osv import osv (version 16)
 class res_partner(osv.osv): (version 16)
 
-from odoo import models (version 16)
-class res_partner(models.Model) (version 16)
+from odoo import models (version 17)
+class res_partner(models.Model) (version 17)
 
 
             
