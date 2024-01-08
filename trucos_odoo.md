@@ -65,6 +65,12 @@ class res_partner(osv.osv): (version 16)
 from odoo import models (version 17)
 class res_partner(models.Model) (version 17)
 
+```
+# 17.0
+```
+@api.multi (version 16) se arregla con  @api.create_multi (version 17)
+
+
 
             
 
