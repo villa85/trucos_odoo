@@ -53,6 +53,14 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
 
             states="Ongoing,Expire Soon," (version 16)
             invisible="state not in ['Ongoing','Expire Soon']" (version 17)
+
+            states="draft" (version 16)
+            invisible = "state != 'draft'" (version 17)
+
+            states="draft,open,generated" (version 16)
+            invisible = "state != 'draft' and state != 'open' and state != 'generated'" (version 17)
+
+            
 ```
 # 17.0
 ```
