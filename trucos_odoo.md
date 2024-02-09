@@ -76,7 +76,7 @@ class res_partner(models.Model) (version 17)
 ```
 # 17.0
 ```
-@api.multi (version 16) se arregla con  @api.create_multi (version 17)
+@api.multi (version 16) se arregla con  @api.model_create_multi (version 17)
 
 
 
