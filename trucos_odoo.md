@@ -20,6 +20,7 @@ Necesito que el campo llamado amount_total muestre el total de lo que ya trae el
         for record in self:
             record.amount_total_budget = record.budget_id.amount_total if record.budget_id else 0.0
 ```
+```
 # 17.0   Error "Since 17.0, the "attrs" and "states" attributes are no longer used."
 Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states". Aqui van algunos ejemplos de como arreglarlo
 
@@ -59,6 +60,7 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
 
 
 ```
+```
 # 17.0 DeprecationWarning: Since 17.0: odoo.osv.osv.osv is deprecated, use odoo.models.Model
 
     Se arregla cambiando:
@@ -75,6 +77,7 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
 
 ```
 ```
+```
 # 17.0 Definición de un menu
 ```
         <record id="action_ftp_config_form" model="ir.actions.act_window" >
@@ -87,7 +90,7 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
     <menuitem name="Configuración FTP" id="ftp_config_menu"  parent="base.menu_administration" sequence="20"/>
 
     <menuitem id="ftp_config_view"  name="Conexion FTP"  action="action_ftp_config_form" parent="ftp_config_menu" sequence="2"/>
-```
+
             
 
 
