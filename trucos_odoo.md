@@ -62,9 +62,8 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
 
             
 ```
-# 17.0
-```
-DeprecationWarning: Since 17.0: odoo.osv.osv.osv is deprecated, use odoo.models.Model
+
+``` # 17.0 DeprecationWarning: Since 17.0: odoo.osv.osv.osv is deprecated, use odoo.models.Model
 
 Se arregla cambiando:
 from openerp.osv import osv (version 16)
@@ -78,9 +77,9 @@ class res_partner(models.Model) (version 17)
 ```
 @api.multi (version 16) se arregla con  @api.model_create_multi (version 17)
 
-# 17.0
+
 ```
-Definición de un menu
+# 17.0 Definición de un menu
 
         <record id="action_ftp_config_form" model="ir.actions.act_window" >
             <field name="name">FTP</field>
