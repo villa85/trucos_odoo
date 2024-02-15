@@ -19,7 +19,8 @@ Necesito que el campo llamado amount_total muestre el total de lo que ya trae el
     def _compute_amount_total_budget(self):
         for record in self:
             record.amount_total_budget = record.budget_id.amount_total if record.budget_id else 0.0
-``` # 17.0   Error "Since 17.0, the "attrs" and "states" attributes are no longer used."
+```
+# 17.0   Error "Since 17.0, the "attrs" and "states" attributes are no longer used."
 Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states". Aqui van algunos ejemplos de como arreglarlo
 
             attrs="{'invisible': [('imported','=',True)]}"/> (version 16)
