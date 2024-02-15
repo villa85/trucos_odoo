@@ -78,8 +78,21 @@ class res_partner(models.Model) (version 17)
 ```
 @api.multi (version 16) se arregla con  @api.model_create_multi (version 17)
 
+# 17.0
+```
+Definición de un menu
 
+        <record id="action_ftp_config_form" model="ir.actions.act_window" >
+            <field name="name">FTP</field>
+            <field name="res_model">ftp.config</field>
+            <field name="view_mode">tree,form</field>
+            <field name="limit">80</field>
+        </record>
 
+    <menuitem name="Configuración FTP" id="ftp_config_menu"  parent="base.menu_administration" sequence="20"/>
+
+    <menuitem id="ftp_config_view"  name="Conexion FTP"  action="action_ftp_config_form" parent="ftp_config_menu" sequence="2"/>
+```
             
 
 
