@@ -68,10 +68,10 @@ Esto se debe a que en la version 17 desaparece las etiquetas "attrs" and "states
     from odoo import models (version 17)
     class res_partner(models.Model) (version 17)
 
-```
+
 # 17.0
 ```
-@api.multi (version 16) se arregla con  @api.model_create_multi (version 17)
+    @api.multi (version 16) se arregla con  @api.model_create_multi (version 17)
 
 ```
 ```
