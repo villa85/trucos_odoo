@@ -1,7 +1,7 @@
 
 # Clase SSH en Windows
 ```
-ssh-keygen
+ssh-keygen -t rsa
 ```
 # 16.0
 
