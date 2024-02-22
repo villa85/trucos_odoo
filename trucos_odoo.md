@@ -1,8 +1,4 @@
 
-# Clase SSH en Windows
-```
-ssh-keygen -t rsa
-```
 # 16.0
 
 1- Como mostrar informacion en un campo en dependencia de la seleccion de otro campo 
