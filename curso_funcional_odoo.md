@@ -28,3 +28,11 @@
 1.  En el Chatter de un registro no se puede ver pedidos de venta relacionados.
 2.  Se añade un seguidor al registro en "Seguidores > Añadir seguidores > Escribe el nombre o el correo electrónico de la persona > Añadir seguidor."
 3.  La diferencia entre "Enviar mensaje" y "Nota de registro" es que "Enviar mensaje" puede enviar un mensaje visible para usuarios externos; "Nota de registro" puede crear una nota NO visible para usuarios externos.
+  ## Odoo Discusión (Convesaciones): Mensajes Directos y Llamadas de Voz/Video | Primeros pasos
+1. Para ver todas tus conversaciones de Discusión en Odoo, debes hacer clic clic en el icono de Conversaciones en la barra de navegación superior o yendo al módulo Discutir.
+2. Los nuevos mensajes no leídos en el módulo discutir (Convesaciones) se pueden ver en  "Bandeja de emtrada"
+3.  Para invitar a partes externas a una conversación en Odoo Discuss se debe ir a "Añadir Usuarios > copiar el enlace de invitación > enviar el enlace a la parte externa."
+ ## Odoo Discuss: Channels (Convesaciones)
+1. Para ver todos los canales públicos en Odoo se sigue la siguiente ruta "Módulo Conversar > Canales > haga clic en el icono de engranaje."
+2. Las dos formas de acceder a los canales en Odoo es a través del icono Conversaciones en la esquina superior derecha y a través de la aplicación Discutir (Convesaciones).
+3. Se puede suscribir automáticamente en un departamento a un canal en le siguiente ruta "En la pestaña Configuración del canal > Privacidad."
