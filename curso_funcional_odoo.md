@@ -36,3 +36,6 @@
 1. Para ver todos los canales públicos en Odoo se sigue la siguiente ruta "Módulo Conversar > Canales > haga clic en el icono de engranaje."
 2. Las dos formas de acceder a los canales en Odoo es a través del icono Conversaciones en la esquina superior derecha y a través de la aplicación Discutir (Convesaciones).
 3. Se puede suscribir automáticamente en un departamento a un canal en le siguiente ruta "En la pestaña Configuración del canal > Privacidad."
+## Flujo de negocio: Tienda de muebles
+1. Un producto para el que su inventario muestra una cantidad de 0 se puede vender
+2. Para facturar todos sus clientes a la vez, realiza siguiendo estos pasos "Vaya a la aplicación Ventas > A Facturar > Ordenes a Facturar" 
