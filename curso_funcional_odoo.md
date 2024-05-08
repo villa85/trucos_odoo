@@ -38,4 +38,13 @@
 3. Se puede suscribir automáticamente en un departamento a un canal en le siguiente ruta "En la pestaña Configuración del canal > Privacidad."
 ## Flujo de negocio: Tienda de muebles
 1. Un producto para el que su inventario muestra una cantidad de 0 se puede vender
-2. Para facturar todos sus clientes a la vez, realiza siguiendo estos pasos "Vaya a la aplicación Ventas > A Facturar > Ordenes a Facturar" 
+2. Para facturar todos sus clientes a la vez, realiza siguiendo estos pasos "Vaya a la aplicación Ventas > A Facturar > Ordenes a Facturar"
+## Flujo de negocio: Servicio de consultoria
+1. Si desea que se cree un proyecto y tareas cuando se confirma un pedido de cliente, debe crear una tarea en el proyecto del pedido de venta.
+2. En las columnas del pedido de cliente se muestran las horas "Entregadas" registradas en las tareas.
+3. Las opciones de refacturación disponibles, para configurar los productos de gastos son: "Sin refacturación, A precio de coste, A precio de venta"
+4. Para facturar a los clientes por lotes se puede elegir un periodo específico.
+   ## Flujo de negocio: Departamento Administrativo
+1. La acción dividir "divide un lote de documentos en archivos separados"
+2. Cuando uso una dirección de email para recibir documentos, odoo crea un "Alias de email"
+3. Odoo permite enviar un documento para que lo firmen mi cliente y mi empleado
