@@ -48,3 +48,13 @@
 1. La acción dividir "divide un lote de documentos en archivos separados"
 2. Cuando uso una dirección de email para recibir documentos, odoo crea un "Alias de email"
 3. Odoo permite enviar un documento para que lo firmen mi cliente y mi empleado
+   ## Flujo de negocio: Proyecto de construcción
+1.  Para que la columna "Analítica" este visible en la Orden de Compra o en la Orden de Venta, debe activar en Contabilidad > Configuración > Ajustes.
+2.  Para facturar al cliente el tiempo que los empleados han trabajado en el proyecto, debe  estables el "producto" como un servicio y la política de facturación como hojas de horas por tareas.
+3.  Si por ejemplo unos paneles de madera están configurados para facturar las cantidades entregadas y refacturar al "precio de venta" y el coste del producto es de 50 $ y el precio de venta es de 80 $. Se facturaria por 5 paneles 400 euros en total.
+## Flujo de negocio: Restaurant
+1. En la aplicación de planificación de Odoo, la "marca" roja cuando aparece en un turno significa que exiten conflito de turno para la misma persona.
+2.Los módulos necesarios para realizar pedidos en línea son "eCommerce y Website"
+3. Para poder editar el diseño de las mesas se debe seleccionar el Icono del lápiz en la esquina superior derecha.
+
+
