@@ -56,5 +56,9 @@
 1. En la aplicación de planificación de Odoo, la "marca" roja cuando aparece en un turno significa que exiten conflito de turno para la misma persona.
 2.Los módulos necesarios para realizar pedidos en línea son "eCommerce y Website"
 3. Para poder editar el diseño de las mesas se debe seleccionar el Icono del lápiz en la esquina superior derecha.
+## Flujo de negocio: Eventos y Marketing
+1. En las preguntas de registro: si "Preguntar sólo una vez por pedido" no está activado, La pregunta se formula una vez por asistente.
+2. Para crear una regla de Generación de clientes potenciales, debo ir a "Events → Configuration → Lead Generation → Create."
+3. Si se pueden crear y enviar una publicación a varias plataformas sociales en varior flujos al mismo timepo
 
 
