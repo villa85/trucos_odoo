@@ -13,3 +13,18 @@
 . Información del cliente, marketing y seguimiento.
 . Marketing, seguimiento e ingresos.
 . Marketing, información del cliente y oportunidades.
+## ¿Qué ocurre con la puntuación de probabilidad de una oportunidad a medida que avanza por el pipeline?
+✓ Se ajusta automáticamente
+. Se ajusta cuando se pulsa el botón "Actualizar probabilidad".
+. La probabilidad debe ser modificada manualmente cuando se mueve a una nueva etapa.
+. Nada. Una vez establecida la probabilidad, nunca cambia.
+## Si la probabilidad ha sido cambiada manualmente, ¿cómo puede la probabilidad volver a la predicción de probabilidad de Odoo?
+. Haciendo click en 'Restaurar' en la parte superior del formulario de oportunidad
+. Haciendo click en 'Odoo Original' en el Chatter del formulario de oportunidad
+✓ Haciendo clic en el icono 'engranaje' al lado del campo de probabilidad
+. Es imposible. Una vez que se establece una probabilidad, nunca cambia.
+## Para añadir un mismo vendedor a varios equipos de ventas, ¿qué función *debe* estar activada en la configuración del CRM?
+. Equipos diferentes
+. Ventas múltiples
+. Ventas personalizadas
+✓ Equipos múltiples
