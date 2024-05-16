@@ -58,3 +58,33 @@
 . Para no asignar nunca el mismo usuario en la siguiente actividad
 . Para dar a un usuario específico acceso de administrador a toda la base de datos
 . Esta opción no existe
+## Para utilizar Leads en Odoo CRM, ¿qué configuración DEBE estar activada?
+. Oportunidades
+✓ Leads
+. Ventas de clientes potenciales
+. No se requiere ninguna configuración
+## Al convertir un cliente potencial en una oportunidad, ¿cuáles son las dos opciones de acción de conversión?
+. "Combinar con otras oportunidades" y "Consolidar clientes potenciales".
+. "Fusionar con otras oportunidades" y "Cambiar estado"
+. "Convertir en oportunidad" y "Añadir con otras oportunidades"
+✓ "Convertir en oportunidad" y "Fusionar con oportunidades existentes"
+## En un formulario de clientes potenciales, ¿qué botón inteligente le permite saber que hay clientes potenciales similares en la base de datos?
+✓ Clientes potenciales similares
+. Otros clientes potenciales
+. Oportunidades similares
+. Oportunidades relacionadas
+## Al configurar un formulario en línea para generar clientes potenciales, ¿qué opción DEBE elegirse en el menú desplegable "Acción" (en el modo "Editar")?
+. Generación de clientes potenciales
+✓ Crear una oportunidad
+. Creación de una oportunidad
+. Crear un cliente potencial
+## Al configurar un alias de correo electrónico para generar clientes potenciales para un equipo de ventas, ¿qué opción debe estar marcada en el formulario del equipo de ventas, para que Odoo cree un cliente potencial cada vez que se envíe un correo electrónico a ese alias?
+✓ Leads
+. Emails
+. Ventas
+. Generar
+## Si se genera un cliente potencial a partir de un correo electrónico enviado a un alias, ¿dónde se puede encontrar el cuerpo del correo electrónico en el formulario de clientes potenciales?
+. En el campo "Asunto
+. En la pestaña "Cuerpo del correo electrónico
+✓ En el "Chatter
+. No se puede encontrar en el formulario
