@@ -28,3 +28,19 @@
 . Ventas múltiples
 . Ventas personalizadas
 ✓ Equipos múltiples
+## ¿Cuándo se puede modificar el estado de una oportunidad?
+. En cualquier momento, antes de que se marque como "Ganada".
+✓ En cualquier momento, incluso después de que haya sido marcada como "Ganada".
+. Sólo cuando se encuentra en la fase "Propuesta
+. Sólo cuando está en la fase "Nueva
+## ¿Se necesitan determinados derechos de acceso para crear (o modificar) Razones Perdidas?
+. No, cualquiera puede acceder
+. No, sólo necesitas estar en Modo Desarrollador
+. No, sólo necesitas una conexión Wi-Fi potente
+✓ Sí, se necesitan ciertos derechos de acceso
+## ¿Cómo gestiona Odoo las oportunidades perdidas en tramitación?
+✓ Las archiva
+. Las borra
+. Las pone en estado "Perdidas
+. Nada
+
