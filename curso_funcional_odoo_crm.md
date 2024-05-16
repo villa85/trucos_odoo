@@ -43,4 +43,18 @@
 . Las borra
 . Las pone en estado "Perdidas
 . Nada
-
+## Al crear una acción automatizada "Enviar correo electrónico", en el campo "Enviar correo electrónico como", ¿qué hace la opción "Mensaje"?
+. El correo electrónico se enviará como un SMS, y el mensaje se publicará en el registro, en el Chatter - notificando a todos los seguidores de la oportunidad
+. No se enviará el correo electrónico, pero se publicará un mensaje en el registro, en el Chatter - notificando a todos los seguidores de la oportunidad
+✓ El correo electrónico se enviará, y el mensaje se publicará en el registro, en el Chatter - notificando a todos los seguidores de la oportunidad
+. No existe la opción "Mensaje" en el campo "Enviar correo electrónico como".
+##  ¿Cómo se accede a la página de automatizaciones de una etapa?
+✓ Haga clic en el icono de engranaje situado en la parte superior de una etapa > Seleccione "Automatizaciones".
+. Haga clic en el icono de engranaje situado en la parte inferior de una etapa > Seleccione "Personalización".
+. Haz clic en "Configuración" > Selecciona "Automatizaciones de escenario".
+. Seleccione "Automatizaciones de etapa" en el panel de control de CRM Pipeline.
+## Al configurar una automatización del tipo "Crear actividad", en el campo "Tipo de usuario", ¿cuándo se utiliza la opción "Usuario específico"?
+✓ Para asignar siempre el mismo usuario en la siguiente actividad
+. Para no asignar nunca el mismo usuario en la siguiente actividad
+. Para dar a un usuario específico acceso de administrador a toda la base de datos
+. Esta opción no existe
