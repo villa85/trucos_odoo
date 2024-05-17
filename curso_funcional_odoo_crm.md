@@ -1,8 +1,8 @@
 ## ¿Cómo personalizar una etapa desde el panel principal de CRM (en la vista Kanban)?
-1 . Vaya a Configuración > Etapas > Personalizaciones. 
-2 ✓ Pase el ratón sobre la parte superior de una etapa y aparecerá un icono de engranaje. Haga clic en él y seleccione Personalizaciones en el menú desplegable. 
-3 . Haga clic en "Nuevo" en el panel de control, y proceda a crear una nueva etapa. 
-4 . Esto no es posible en Odoo CRM.
+1. Vaya a Configuración > Etapas > Personalizaciones. 
+2. ✓ Pase el ratón sobre la parte superior de una etapa y aparecerá un icono de engranaje. Haga clic en él y seleccione Personalizaciones en el menú desplegable. 
+3. Haga clic en "Nuevo" en el panel de control, y proceda a crear una nueva etapa. 
+4. Esto no es posible en Odoo CRM.
 ## ¿Cómo se programa una actividad para una oportunidad desde el panel principal de CRM (en la vista Kanban)?
 . Haga clic en el icono "cara sonriente" en la tarjeta Kanban de la oportunidad.
 . Haga clic en el icono "corredor" en la tarjeta Kanban de la oportunidad.
