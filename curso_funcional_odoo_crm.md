@@ -88,3 +88,18 @@
 2. En la pestaña "Cuerpo del correo electrónico
 3. ✓ En el "Chatter
 4. No se puede encontrar en el formulario
+ ## Al intentar generar clientes potenciales a partir de eventos, citas o visitantes del sitio Web, ¿qué opción debe seleccionarse en el campo "Tipo de cliente potencial" de una regla de generación de clientes potenciales?
+1. ✓ Lead
+2. Oportunidad
+3. Generar
+4. Crear
+   ## En la pestaña "Opciones" de un formulario de Cita, ¿qué casilla **debe** estar marcada para garantizar que todas las citas reservadas de este tipo generen oportunidades en la cartera de proyectos?
+1. Generar oportunidades
+2. Crear citas
+3. ✓Crear oportunidades
+4. Generar clientes potenciales
+   ## Si una persona visita nuestro sitio web, pero no rellena ningún formulario, y no se pone en contacto con nosotros en absoluto, ¿cómo puede Odoo *todavía* registrarlos como clientes potenciales (si cumplen con ciertos criterios que estamos buscando)?
+## Desde la aplicación Sitio Web, haga clic en Configuración > Ajustes. Luego, active la función 'Registrar clientes potenciales', y haga clic en 'Guardar'.
+1. En la aplicación Citas, haga clic en Configuración > Ajustes. A continuación, active la función "Clientes potenciales de visitas" y haga clic en "Guardar".
+2. ✓En la aplicación CRM, haga clic en Configuración > Ajustes. A continuación, active la función "Visitas a clientes potenciales" y haga clic en "Guardar".
+3. Es imposible
