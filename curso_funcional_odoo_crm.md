@@ -99,10 +99,10 @@
 3. ✓Crear oportunidades
 4. Generar clientes potenciales
    ## Si una persona visita nuestro sitio web, pero no rellena ningún formulario, y no se pone en contacto con nosotros en absoluto, ¿cómo puede Odoo *todavía* registrarlos como clientes potenciales (si cumplen con ciertos criterios que estamos buscando)?
-## Desde la aplicación Sitio Web, haga clic en Configuración > Ajustes. Luego, active la función 'Registrar clientes potenciales', y haga clic en 'Guardar'.
-1. En la aplicación Citas, haga clic en Configuración > Ajustes. A continuación, active la función "Clientes potenciales de visitas" y haga clic en "Guardar".
-2. ✓En la aplicación CRM, haga clic en Configuración > Ajustes. A continuación, active la función "Visitas a clientes potenciales" y haga clic en "Guardar".
-3. Es imposible
+1. Desde la aplicación Sitio Web, haga clic en Configuración > Ajustes. Luego, active la función 'Registrar clientes potenciales', y haga clic en 'Guardar'.
+2. En la aplicación Citas, haga clic en Configuración > Ajustes. A continuación, active la función "Clientes potenciales de visitas" y haga clic en "Guardar".
+3. ✓En la aplicación CRM, haga clic en Configuración > Ajustes. A continuación, active la función "Visitas a clientes potenciales" y haga clic en "Guardar".
+4. Es imposible
    ## Enriquecimiento de Lead
 ¿Qué pasa si Odoo no es capaz de encontrar información adicional sobre su cliente potencial?
 1. Usted sigue pagando un crédito
