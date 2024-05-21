@@ -103,3 +103,8 @@
 1. En la aplicación Citas, haga clic en Configuración > Ajustes. A continuación, active la función "Clientes potenciales de visitas" y haga clic en "Guardar".
 2. ✓En la aplicación CRM, haga clic en Configuración > Ajustes. A continuación, active la función "Visitas a clientes potenciales" y haga clic en "Guardar".
 3. Es imposible
+   ## Enriquecimiento de Lead
+¿Qué pasa si Odoo no es capaz de encontrar información adicional sobre su cliente potencial?
+1. Usted sigue pagando un crédito
+2. ✓No se debita crédito de su cuenta
+3. Odoo siempre encontrará una manera de enriquecer su lead
