@@ -117,4 +117,18 @@
 2. Website
 3. Phone number
 4. Any of the above
+## ¿Es posible generar clientes potenciales sin elegir un país?
+1. Sí
+2. ✓No
+## ¿De dónde podemos generar nuevos clientes potenciales?
+1. Mi pipeline
+2. Pipeline del equipo
+3. Leads
+4. Configuración → Solicitudes de extracción de clientes potenciales
+5. ✓Todas estas respuestas a excepción de Team Pipelines
+## ¿Cuántos sectores diferentes puede elegir a la hora de generar clientes potenciales?
+1. 3
+2. 5
+3. 20
+4. ✓Todos los que desee
 
