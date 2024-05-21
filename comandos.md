@@ -23,3 +23,10 @@ Nota: el (odoo) al final del comando se refiere al nombre del repositorio
    Para hacer esto, puedes usar el comando git checkout.
   (mi-función)$ git checkout master
 ```
+# Comando cambiar a un commit especifico
+```
+  En la primera línea de cada confirmación, después de la palabra commit, hay una larga cadena de caracteres y números: 94ab1fe28727...
+  Para ver una confirmación específica, solo necesitas pasar el SHA de la confirmación como parámetro para git checkout:
+  
+  (mi-función)$ git checkout 035a128d2e66eb9fe3032036b3415e60c728f692
+```
