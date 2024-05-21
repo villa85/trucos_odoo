@@ -30,3 +30,22 @@ Nota: el (odoo) al final del comando se refiere al nombre del repositorio
   
   (mi-función)$ git checkout 035a128d2e66eb9fe3032036b3415e60c728f692
 ```
+# Comandos para trabajar con submodulos
+```
+  git submodule update --init --recursive -> Busca todos lo submodulos que de lo que dependa la rama donde estoy
+  git submodule update -- remote -> trae todos los cambios a local
+
+luego en dependencia de lo que necesite agrego todo lo que me trajo a la rama en la que estoy o solo los modulos especificos que estoy trabajando con
+git add . -> agregar todo lo que traiga
+git add <nombre del módulo>
+
+luego hago un commit
+git commit -m "algún comentario"
+
+y por ultimo
+git push para subirlo al servidor
+
+
+
+
+```
