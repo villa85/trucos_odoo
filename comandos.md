@@ -14,8 +14,12 @@ Nota: el (odoo) al final del comando se refiere al nombre del repositorio
   git branch -r
 ```
 # Comando crear de rama y pasar a la misma
+```
    Para hacer esto, puedes usar el comando git checkout.
   (master)$ git checkout -b mi-función
+```
 # Comando cambiar de ramas
+```
    Para hacer esto, puedes usar el comando git checkout.
   (mi-función)$ git checkout master
+```
