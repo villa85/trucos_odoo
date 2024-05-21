@@ -104,7 +104,17 @@
 3. ✓En la aplicación CRM, haga clic en Configuración > Ajustes. A continuación, active la función "Visitas a clientes potenciales" y haga clic en "Guardar".
 4. Es imposible
    ## Enriquecimiento de Lead
-¿Qué pasa si Odoo no es capaz de encontrar información adicional sobre su cliente potencial?
+## ¿Qué pasa si Odoo no es capaz de encontrar información adicional sobre su cliente potencial?
 1. Usted sigue pagando un crédito
 2. ✓No se debita crédito de su cuenta
 3. Odoo siempre encontrará una manera de enriquecer su lead
+## ¿Cuál es el tiempo predeterminado para ejecutar el programador de la función de enriquecimiento de clientes potenciales?
+1. ✓1 hora
+2. 12 horas
+3. 1 día
+## Which information does the external database need to enrich your leads?
+1. ✓Email address
+2. Website
+3. Phone number
+4. Any of the above
+
