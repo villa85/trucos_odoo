@@ -1,6 +1,6 @@
 
 # Clave SSH en Windows
 ```
-ssh-keygen -t rsa
+##ssh-keygen -t rsa
 ```
 # Com
