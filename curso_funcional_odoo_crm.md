@@ -112,7 +112,7 @@
 1. ✓1 hora
 2. 12 horas
 3. 1 día
-## Which information does the external database need to enrich your leads?
+##  ¿Qué información necesita la base de datos externa para enriquecer tus leads?
 1. ✓Email address
 2. Website
 3. Phone number
@@ -131,4 +131,20 @@
 2. 5
 3. 20
 4. ✓Todos los que desee
+## Puntuación predictiva de clientes potenciales
+¿Qué botón se debe pulsar en la página de Configuración de CRM para actualizar los elementos que Odoo utiliza para los cálculos de Predictive Lead Scoring?  
+1. ✓Actualizar probabilidades
+2. Actualizar la puntuación predictiva de clientes potenciales
+3. Criterios de actualización
+4. Actualizar el cálculo de oportunidades
+¿Qué criterios son obligatorios a la hora de calcular las tasas de éxito de Predictive Lead Scoring?
+1. País
+2. Correo electrónico Calidad
+3. ✓Etapa
+4. Teléfono Calidad
+Si se ha introducido una probabilidad manualmente, pero se quiere volver al cálculo de probabilidad de Odoo Predictive Lead Scoring, ¿qué se debe pulsar?
+1. Pequeño icono de porcentaje junto a "Probabilidad" en el formulario de oportunidad
+2. Pequeño icono de lápiz en la página de Configuración de CRM
+3. ✓Pequeño icono de engranaje verde junto a "Probabilidad" en el formulario de oportunidad
+4. Es imposible
 
