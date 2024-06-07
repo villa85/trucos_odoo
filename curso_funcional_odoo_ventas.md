@@ -1,6 +1,5 @@
 
-# Clave SSH en Windows
+# Presupuesto
 ```
-##ssh-keygen -t rsa
 ```
 ### Com
