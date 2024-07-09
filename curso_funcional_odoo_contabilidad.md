@@ -83,9 +83,56 @@ En una cuenta activa, ¿cuál es el comportamiento del débito y del crédito?
 . Permite duplicar entradas contabilizadas.
 
 En el panel de contabilidad de Odoo, ¿qué representan las "cajas"?
-. ✓Diarios
+✓ Diarios
 . Informes
 . Datos bancarios personales
 . Plan de cuentas
+```
+# Importar un saldo inicial
+```
+¿Cuáles son los tipos de saldos que deben cargarse?
+✓Libro mayor, clientes, proveedores. 
+. Libro mayor, clientes, informes. 
+. Clientes, proveedores, informes. 
+. Proveedores, informes, adquirentes de pagos.
+
+¿Qué paso hay que dar antes de hacer clic en "importar" en la base de datos?
+. Hacer clic con el botón derecho del ratón en el archivo.
+✓ Probar la importación.
+. Hacer doble clic en el archivo.
+. Ejecutar una maratón.
+```
+# Emitir una factura de cliente 
+```
+Si crea una factura para Azure Interior con 1 producto "Escritorio grande". ¿Cuáles son los asientos creados?
+. 2 Líneas: Ventas de Productos, Cuenta por Cobrar
+. 2 Líneas: Ventas de Productos, Cuenta por Pagar
+✓ 3 Líneas: Ventas de Productos, Impuestos Recibidos, Cuenta por Cobrar
+. 2 Líneas: Ventas de Productos, Impuestos Recibidos
+
+Si una factura tiene 2 productos diferentes, con el mismo impuesto. ¿Qué obtendrá como partidas del diario?
+✓ 1 Deudor, 2 Ventas, 1 Impuesto
+. 2 Deudores, 1 Ventas, 1 Impuesto 
+. 1 Deudor, 1 Ventas, 2 Impuestos
+
+En las partidas del diario, ¿qué define los importes que le debe su cliente?
+. Un débito en la cuenta de acreedores
+✓ Un débito en la cuenta de deudores
+. Un crédito en la cuenta de acreedores
+. Un crédito en la cuenta de deudores
+
+¿Dónde se puede definir la cuenta de ingresos por defecto que se utiliza en una factura?
+✓ En el producto, o en la categoría de producto, o en el diario
+. En el producto, pero no en la categoría de producto. 
+. Sólo en el diario.
+
+¿Qué opciones podrías añadir a una factura para mejorar su estructura?
+. Colores y notas
+. Colores y secciones
+✓ Secciones y notas
+
+¿Es posible seleccionar todas las facturas "Borrador" y contabilizarlas en una sola acción?
+. Sí 
+✓ No
 ```
 
