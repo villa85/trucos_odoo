@@ -19,4 +19,22 @@ Cuando envías un presupuesto por correo electrónico a un cliente utilizando Od
 . Las ordenes de venta confirmadas no pueden ser canceladas en Odoo.
 . Es imposible.
 ```
-### Com
+### Variantes de productos: Configuración
+```
+¿Qué configuración debe activarse para utilizar variantes de productos?
+. ✓La configuracion de Variantes.
+. Ambos A&B.
+. No Odoo settings allow product variants.
+
+¿Cómo aparece la opción Radio en el Configurador de Productos?
+. Como menú desplegable.
+. ✓En forma de lista con viñetas.
+. Como pequeños círculos de colores.
+. No existe tal cosa en Odoo Sales.
+
+Puedo cambiar el Modo de Creación de Variantes después de aplicar un atributo a un producto. ¿Verdadero o falso?
+. Verdadero.
+. ✓Falso.
+. Verdadero, pero sólo si tiene instalada la aplicación Variantes.
+. Verdadero, pero sólo si tiene instalada la aplicación Configuración de Variantes.
+```
