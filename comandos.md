@@ -16,7 +16,13 @@ Nota: el (odoo) al final del comando se refiere al nombre del repositorio
 # Comando crear de rama y pasar a la misma
 ```
    Para hacer esto, puedes usar el comando git checkout.
-  (master)$ git checkout -b mi-función
+    cd /ruta/al/repositorio
+    git checkout -b nombre-de-la-rama
+    # Realiza los cambios necesarios
+    git add .
+    git commit -m "Descripción de los cambios"
+    git push origin nombre-de-la-rama
+
 ```
 # Comando cambiar de ramas
 ```
