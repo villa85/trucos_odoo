@@ -81,3 +81,50 @@ Puedo cambiar el Modo de Creación de Variantes después de aplicar un atributo 
 . Presupuestos.
 
 ```
+### Políticas de facturación
+```
+¿Qué política de facturación utilizarías para facturar a un cliente en función del número de horas trabajadas?
+
+. Basado en cantidades entregadas (manual).
+. Basado en hitos.
+✓ Basado en hojas de horas.
+. Basado en empleados.
+
+¿Qué ocurre cuando se activa la opción Facturación automática?
+
+. Odoo crea automáticamente una factura cuando un vendedor confirma una orden de venta.
+. Odoo crea automáticamente una factura cuando la cantidad entregada es actualizada en una orden de venta.
+✓ Odoo crea automáticamente una factura cuando un cliente confirma un pago en la tienda en línea.
+. Odoo crea automáticamente una factura cuando un empleado confirma una entrega.
+
+¿Cuál de las siguientes afirmaciones es cierta sobre la política de facturación "Basada en hitos"?
+. Requiere que introduzca manualmente el número de hitos en la factura.
+✓ Actualiza automáticamente la cantidad entregada en el pedido de venta en función de los hitos completados en la aplicación Proyecto.
+. Crea automáticamente borradores de facturas en función de los hitos completados en la aplicación Proyecto.
+. No necesita la aplicación Proyecto para facturar a un cliente con esta política.
+```
+### Promoción básica y descuentos
+```
+¿Qué tipo de programa de promoción utilizaría para crear un código promocional de amplia difusión?
+
+. Cupones
+. Promociones
+✓ Código Descuento
+. Distribución Masiva Promo
+
+¿Cómo se configura una promoción para que esté disponible en su tienda online?
+
+. Activa 'Promociones Online' en los ajustes de Ventas.
+. Activa 'Promociones Internet' en los ajustes de la Web.
+. Haz que esté disponible en la app del Punto de Venta.
+✓ Haz que esté disponible en la app de la Web.
+
+¿Cómo se configura una promoción para que no caduque nunca?
+
+✓ Deje el campo Validez en blanco.
+. Establezca la Validez a la fecha de hoy.
+. Establezca la Fecha de Expiración a la fecha de hoy.
+. Esto no es posible con Odoo Sales.
+
+```
+
