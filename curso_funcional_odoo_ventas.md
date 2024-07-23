@@ -38,3 +38,24 @@ Puedo cambiar el Modo de Creación de Variantes después de aplicar un atributo 
 . Verdadero, pero sólo si tiene instalada la aplicación Variantes.
 . Verdadero, pero sólo si tiene instalada la aplicación Configuración de Variantes.
 ```
+### Variantes de Producto - Aplicación y Personalización | Odoo Sales
+```
+¿Qué opción de "Selección de variantes de ventas" permite a los usuarios seleccionar un gran número de variantes de productos a la vez?
+. Configurador de productos
+. Envío de pedidos
+✓ Entrada de pedidos
+. Personalizador de productos
+
+¿Qué campo debe personalizarse para cobrar más dinero por una variante de producto específica?
+. Variante Precio Extra
+. Valor Precio Extra
+✓ Producto Valor Extra
+. Variante de producto Extra
+
+¿Qué botón inteligente debe pulsarse para ver todos los productos que utilizan un atributo específico?
+. Productos conectados
+. Productos variantes
+. Productos con atributos
+✓ Productos relacionados
+
+```
