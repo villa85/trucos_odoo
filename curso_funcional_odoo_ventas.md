@@ -59,3 +59,25 @@ Puedo cambiar el Modo de Creación de Variantes después de aplicar un atributo 
 ✓ Productos relacionados
 
 ```
+### Presupuesto en línea
+```
+¿Cómo puedo ofrecer productos adicionales a mis clientes con una plantilla de presupuesto?
+. Envíeles manualmente un correo electrónico.
+. Llámeles.
+✓ Añada productos en la pestaña Productos opcionales del formulario Plantilla de presupuesto.
+. Espere que vuelvan a comprar algo más en el futuro.
+
+¿Puedo utilizar plantillas de presupuesto en un entorno multiempresa?
+✓ Sí
+. No, sólo puede utilizarlos para una única empresa.
+. Sí, pero sólo si eres el Director General.
+. Odoo no ofrece plantillas de presupuestos.
+
+¿Qué aplicación es necesaria para utilizar el Quotation Builder en Odoo?
+
+✓ Página web.
+. Mailing masivo.
+. Eventos.
+. Presupuestos.
+
+```
