@@ -127,4 +127,27 @@ Puedo cambiar el Modo de Creación de Variantes después de aplicar un atributo 
 . Esto no es posible con Odoo Sales.
 
 ```
+### Cupones
+```
+¿Cuál es la diferencia entre códigos de cupón y códigos promocionales?
+
+. Los códigos de cupón sólo utilizan números, y los códigos promocionales sólo utilizan letras.
+. Los códigos de cupón se comparten con el público en general y pueden utilizarse varias veces. Los códigos promocionales se entregan a clientes específicos y normalmente sólo son válidos para un único uso.
+✓ Los códigos de descuento se entregan a clientes específicos y suelen ser válidos una sola vez. Los códigos promocionales se comparten con el público en general y pueden utilizarse varias veces.
+. No hay ninguna diferencia.
+
+ Si se envía un cupón generado a un cliente concreto, ¿puede cualquiera utilizar ese código de cupón?
+
+ ✓ Sí, es imposible.
+ . No, es imposible.
+ . Sí, pero deben iniciar sesión con la cuenta de ese cliente específico.
+ . Sí, pero tendrían que introducir el código al revés.
+
+¿Qué dos campos aparecen cuando se elige "Clientes seleccionados" en el formulario emergente Generar cupones?
+✓ Clientes y etiquetas de clientes
+. Productos y etiquetas de productos
+. Cupones y etiquetas de cupones
+. Contactos y etiquetas de contactos
+
+```
 
