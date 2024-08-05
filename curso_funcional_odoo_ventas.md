@@ -150,4 +150,50 @@ Puedo cambiar el Modo de Creación de Variantes después de aplicar un atributo 
 . Contactos y etiquetas de contactos
 
 ```
+### Tarjetas regalo y monedero electrónico
+```
+¿Qué es el informe de impresión?
+
+. El Informe de Impresión es un PDF lleno de análisis de Tarjetas Regalo. 
+✓ El Informe de impresión se imprime y se entrega a los clientes que compran tarjetas regalo a través del sistema de Punto de Venta.
+. El Informe de impresión se imprime y se entrega a los clientes que compran tarjetas regalo a través de la tienda en línea.
+. El Informe de impresión no existe.
+
+Si se elige "Clientes seleccionados" en el formulario emergente "Generar" para las tarjetas regalo, ¿qué campo pasa a ser no personalizable?
+
+. Cantidad a generar.
+✓ Productos.
+. Categorías de productos.
+. Contactos.
+
+¿Se pueden generar monederos electrónicos para clientes anónimos?
+
+. Sí. 
+. Sí, pero sólo si tiene acceso de administrador oficial. 
+. Sí, pero sólo si el cliente está en persona utilizando un sistema de Punto de Venta.
+✓ No.
+```
+### Impuesto sobre las ventas: Parte 1
+```
+¿En qué se basa el paquete de localización fiscal de Odoo?
+
+. El país en el que el usuario individual se encuentra actualmente.
+. El país de origen del administrador de la base de datos.
+✓ El país que se selecciona como el país de la empresa cuando se crea por primera vez una base de datos Odoo.
+. No hay tal cosa como la localización fiscal con Odoo.
+
+¿Cómo se calcula el impuesto "Porcentaje del precio"?
+
+✓ Multiplicando un importe porcentual por el precio de venta del producto.
+. Multiplicando un importe porcentual por el precio total del producto, impuestos incluidos.
+. Multiplicando un importe porcentual por un precio fijo del producto medio.
+. Multiplicando el coste de un producto de un proveedor por el número de días que permanece en el almacén.
+
+Si la opción de cálculo de impuestos "Código Python" no está disponible, ¿qué hay que hacer?
+. El administrador de la base de datos debe concederle "Derechos de desarrollador"
+✓ El módulo "Definir impuestos como código Python" debe instalarse desde la aplicación "Apps" 
+. Debe cambiar su contraseña de inicio de sesión a "Python_Coder"
+. "Código Python" sólo es accesible en sistemas operativos LINUX
+
+```
 
