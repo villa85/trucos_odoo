@@ -38,10 +38,12 @@ Nota: el (odoo) al final del comando se refiere al nombre del repositorio
 ```
 # Comandos para trabajar con submodulos
 ```
+  git branch  -> Para conocer en que rama estoy y voy a subir cambios
   git submodule update --init --recursive -> Busca todos lo submodulos que de lo que dependa la rama donde estoy
   git submodule update --remote -> trae todos los cambios a local
 
 luego en dependencia de lo que necesite agrego todo lo que me trajo a la rama en la que estoy o solo los modulos especificos que estoy trabajando con
+git status -> ver los modulos que cambian
 git add . -> agregar todo lo que traiga
 git add <nombre del módulo>
 
