@@ -1,32 +1,75 @@
-Estos son los pasos para realizar una migracion desde cualquier version 
 
-Al ejecutar el script de migración base de datos puede crecer exponecialmente por la cantidad versiones por la que tenga que pasar, Ejemplo BD de 4GB en la version 15 a la 18 de odoo 4GB x 3 versiones a migrar = 12GB el disco duro debe tener 
-minimo esa cantidad y la ram minimo 8Gb de Ram
+# 🧭 Pasos para realizar una migración entre versiones de Odoo
 
-Luego en la pagina https://upgrade.odoo.com/es podras encontrar el comando que debe correr en tu odoo en la version mas baja para seguir con la misma linea seria el odoo version 15
+## 💾 Requisitos previos
 
-Usa el siguiente comando* en el servidor en el que esté alojada tu base de datos:
-python <(curl -s https://upgrade.odoo.com/upgrade) test -d <nombre de tu bd> -t <versión destino>
+Durante el proceso de migración, el tamaño de la base de datos puede **incrementarse significativamente**, ya que el script de migración genera copias intermedias por cada versión que debe atravesar.
 
-1- Desde tu host, crea un dump manual:
+**Ejemplo:**  
+Una base de datos de 4 GB en Odoo 15 que se migra a Odoo 18 podría crecer hasta 12 GB, ya que debe pasar por 3 versiones (15 → 16 → 17 → 18).
+
+**📌 Recomendaciones mínimas:**
+- Espacio en disco disponible: al menos 3 veces el tamaño de tu base de datos original.
+- Memoria RAM: mínimo **8 GB**.
+
+---
+
+## 📡 Obtener el script de migración oficial
+
+Dirígete a la página oficial de migraciones de Odoo:  
+🔗 [https://upgrade.odoo.com/es](https://upgrade.odoo.com/es)
+
+Allí encontrarás el comando que debes ejecutar desde la versión **más baja** de Odoo que estás utilizando (por ejemplo, si estás en Odoo 15, ejecútalo desde esa versión).
+
+```bash
+python <(curl -s https://upgrade.odoo.com/upgrade) test -d <nombre_de_tu_bd> -t <versión_destino>
+```
+
+---
+
+## 📦 Cómo generar y enviar un dump para migración
+
+### 1. Crear un dump manual desde tu host
+
+```bash
 docker exec -t postgres_db pg_dump -U odoo tactics_migration -F c -f /tmp/tactics_migration.dump
-Esto genera el dump dentro del contenedor.
+```
 
-2. Copia el archivo desde el contenedor al host:
+Esto genera un archivo `.dump` dentro del contenedor PostgreSQL.
+
+---
+
+### 2. Copiar el archivo `.dump` al host local
+
+```bash
 docker cp postgres_db:/tmp/tactics_migration.dump ./tactics_migration.dump
+```
 
-3. Ejecuta el script de migración con ese dump:
+---
 
+### 3. Ejecutar el script de migración usando el archivo dump
+
+```bash
 python3 <(curl -s https://upgrade.odoo.com/upgrade) test -i tactics_migration.dump -t 18.0 --contract M20093019917720
+```
 
-Comandos para conocer el codigo de suscripción (enterprise_code) de la base de datos tactics_migration
-Una vez que ingresas al prompt de psql
+Reemplaza el código de contrato por el tuyo correspondiente.
 
-SELECT value FROM ir_config_parameter WHERE key='database.enterprise_code';
+---
 
-Alternativamente
-Si quieres evitar ingresar al prompt interactivo, puedes ejecutar el comando directamente desde el host con:
+## 🧾 Cómo obtener el código de suscripción (Enterprise Code)
 
+Desde el prompt interactivo de `psql`, ejecuta:
+
+```sql
+SELECT value FROM ir_config_parameter WHERE key = 'database.enterprise_code';
+```
+
+### Alternativa sin entrar al prompt:
+
+```bash
 docker exec -it postgres_db psql -U odoo -d tactics_migration -c "SELECT value FROM ir_config_parameter WHERE key='database.enterprise_code';"
+```
+
 
 
