@@ -51,6 +51,9 @@ docker cp postgres_db:/tmp/tactics_migration.dump ./tactics_migration.dump
 
 ```bash
 python3 <(curl -s https://upgrade.odoo.com/upgrade) test -i tactics_migration.dump -t 18.0 --contract M20093019917720
+
+python3 <(curl -s https://upgrade.odoo.com/upgrade) production -i tactics_migration.dump -t 18.0 --contract M20093019917720
+
 ```
 
 Reemplaza el código de contrato por el tuyo correspondiente.
