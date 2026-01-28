@@ -101,4 +101,18 @@ _logger = logging.getLogger(__name__)
 try:
     import paramiko
 except (ImportError, IOError):
-    _logger.warning('Missing library Paramiko.')           
+    _logger.warning('Missing library Paramiko.')
+```
+# Cambiar la contraseña de por codigo
+```
+1- docker ps ------ Saber los contenedore que tengo
+2- docker exec -it <nombre_del_contenedor> bash ------ entrar al contenedor en este caso el del postgre
+    Si aplica
+    2.2 - docker inspect postgres_db ------ conocer el usuario y contraseña del docker
+3- psql -U pgodoo -d Flowia_PROD ------ entrar a la BD con el usuario de odoo correspondiente
+    Si aplica
+    3.2 \dt ------ listar las tablas
+    3.3 SELECT id, login, name, active FROM res_users; ------ conocer los usuarios que tiene
+4- UPDATE res_users SET password = 'admin' WHERE id = 2; ------ actulizar passord por el ID
+    UPDATE res_users SET password = 'admin' WHERE login = 'info@flowia.es'; ------ actualizar por login
+    
