@@ -112,7 +112,7 @@ except (ImportError, IOError):
 3- psql -U pgodoo -d Flowia_PROD ------ entrar a la BD con el usuario de odoo correspondiente
     Si aplica
     3.2 \dt ------ listar las tablas
-    3.3 SELECT id, login, name, active FROM res_users; ------ conocer los usuarios que tiene
+    3.3 SELECT id, login, active FROM res_users; ------ conocer los usuarios que tiene
 4- UPDATE res_users SET password = 'admin' WHERE id = 2; ------ actulizar passord por el ID
     UPDATE res_users SET password = 'admin' WHERE login = 'info@flowia.es'; ------ actualizar por login
     
